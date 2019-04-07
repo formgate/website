@@ -1,4 +1,4 @@
-baseURL = "relaxed-pasteur-0e90ac.netlify.com"
+baseURL = "https://relaxed-pasteur-0e90ac.netlify.com"
 languageCode = "en-us"
 title = "Hugo Whisper Theme"
 themesDir = "./themes"
