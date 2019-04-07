@@ -1,4 +1,4 @@
-src/public
-src/resources
+public/
+resources/
 **/.DS_Store
 .idea
