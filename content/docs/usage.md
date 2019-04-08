@@ -34,10 +34,10 @@ You can see some example forms below ranging from super basic to much more advan
 <form action="https://forms.yourdomain.com/send" method="POST">
   <input type="hidden" name="_recipient" value="someone@clientwebsite.com">
   <input type="hidden" name="_redirect_success" value="https://clientwebsite.com/success/">
-  <input type="text" name="_sender_name" value="Client Website">
-  <input type="email" name="_sender_email">
-  <input type="text" name="_subject" value="Contact Form Submission">
-  <textarea name="Message"></textarea>
+  <input type="text" name="_sender_name" placeholder="Your Name">
+  <input type="email" name="_sender_email" placeholder="Your Email">
+  <input type="text" name="_subject" placeholder="Your Subject">
+  <textarea name="Message" placeholder="Your Message"></textarea>
   <input type="submit" value="Send">
 </form>
 ```
