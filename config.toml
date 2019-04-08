@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Formgate"
 themesDir = "./themes"
 theme = "hugo-whisper-theme"
-disableKinds = ["sitemap", "categories", "tags", "taxonomyTerm", "RSS"]
+disableKinds = ["categories", "tags", "taxonomyTerm", "RSS"]
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
