@@ -1,6 +1,6 @@
-baseURL = "https://relaxed-pasteur-0e90ac.netlify.com"
+baseURL = "https://formgate.dev"
 languageCode = "en-us"
-title = "Hugo Whisper Theme"
+title = "Formgate"
 themesDir = "./themes"
 theme = "hugo-whisper-theme"
 disableKinds = ["sitemap", "categories", "tags", "taxonomyTerm", "RSS"]
@@ -12,27 +12,23 @@ pygmentsUseClasses = true
 [[menu.main]]
     name = "Home"
     url = "/"
-    weight = 1
+    weight = 100
 
 [[menu.main]]
     name = "Docs"
     url = "/docs/"
-    weight = 2
+    weight = 200
 
 [params]
-  google_analytics_id=""
   homepage_button_link = '/docs'
   homeoage_button_text = 'Read The Docs'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
+  homepage_intro = 'Formgate is a ….'
   homepage_image = '/images/terminal.gif'
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_description = "Formgate is a …"
+    meta_og_title = "Formgate"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_og_url = "https://formgate.dev"
+    meta_og_image = "https://"
+    meta_og_description = ""
