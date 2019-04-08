@@ -4,6 +4,7 @@ title = "Formgate"
 themesDir = "./themes"
 theme = "hugo-whisper-theme"
 disableKinds = ["categories", "tags", "taxonomyTerm", "RSS"]
+enableRobotsTXT = true
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true

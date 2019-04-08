@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://formgate.dev/sitemap.xml
