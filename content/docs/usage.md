@@ -2,7 +2,7 @@
 title: 'Usage'
 date: 2019-04-08
 weight: 20
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corporis voluptates, omnis porro quas adipisci, deleniti maxime eaque possimus nostrum nulla et illo earum ex minus aliquid reiciendis odit rem.
+description: This page includes information on how you can use Formgate as well as some example forms you can use.
 ---
 
 - [Request Parameters](#params)
