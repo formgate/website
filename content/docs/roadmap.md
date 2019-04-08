@@ -2,7 +2,7 @@
 title: 'Roadmap'
 date: 2019-04-08
 weight: 30
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corporis voluptates, omnis porro quas adipisci, deleniti maxime eaque possimus nostrum nulla et illo earum ex minus aliquid reiciendis odit rem.
+description: This page contains information about our future plans with this project.
 ---
 
 It's early days for the project but in future we would like to add the following functionality:
