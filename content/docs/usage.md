@@ -22,11 +22,13 @@ Send a POST request to `https://forms.yourdomain.com/send` with the following pa
 | _subject          | The subject line for this contact form. (optional)                                |
 | _hp_email         | If this field is filled in then the a 422 error will be returned. (optional)      |
 
-**Important:** The `_recipient` must be added to the allow list in your `.env` file to be valid.
+**Notes:**
+
+The `_recipient` **must** be added to the allow list in your `.env` file to be valid.
 
 The `_hp_email` field acts as a honeypot field to prevent spam submissions.
 
-You can include any other parameters to be included in the generated email.
+Any other parameters you include will be shown in the generated email automatically.
 
 # <a name="examples"></a> Example Forms
 You can see some example forms below ranging from super basic to much more advanced (coming soon).
