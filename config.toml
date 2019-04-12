@@ -27,8 +27,8 @@ pygmentsUseClasses = true
   homepage_image = '/images/terminal.gif'
 
   [params.homepage_meta_tags]
-    meta_description = "Formgate is a …"
-    meta_og_title = "Formgate"
+    meta_description = "Formgate is a self-hosted solution for handling contact forms on your static websites. You just need to host a single instance of Formgate to handle the contact forms for all of your static websites."
+    meta_og_title = "Formgate - Self Hosted Form Handling Solution"
     meta_og_type = "website"
     meta_og_url = "https://formgate.dev"
     meta_og_image = "https://"
