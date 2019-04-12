@@ -11,8 +11,8 @@ description: Here's what you need to get started with Formgate.
 
 # <a name="requirements"></a> Requirements
 
+* Apache (or other web server with appropriate rewrite rules configured)
 * PHP 7.2
-* Web server supporting PHP
 * Composer
 
 # <a name="installation"></a> Installation
