@@ -23,8 +23,8 @@ pygmentsUseClasses = true
 [params]
   homepage_button_link = '/docs'
   homeoage_button_text = 'Read The Docs'
-  homepage_intro = 'Formgate is a ….'
-  homepage_image = '/images/terminal.gif'
+  homepage_intro = ''
+  homepage_image = '/images/image.gif'
 
   [params.homepage_meta_tags]
     meta_description = "Formgate is a self-hosted solution for handling contact forms on your static websites. You just need to host a single instance of Formgate to handle the contact forms for all of your static websites."
