@@ -1,6 +1,6 @@
 ---
 title: 'Usage'
-date: 2019-04-08
+date: 2019-04-16
 weight: 20
 description: This page includes information on how you can use Formgate as well as some example forms you can use.
 ---
@@ -22,15 +22,17 @@ Send a POST request to `https://forms.yourdomain.com/send` with the following pa
 | _sender_email     | The sender email address for this contact form. (optional)                        |
 | _subject          | The subject line for this contact form. (optional)                                |
 | _hp_email         | If this field is filled in then a 422 error will be returned. (optional)          |
-| file              | An input file which will be attached to the email (optional)                      |
+| _file              | An input file which will be attached to the email (optional)                     |
 
-**Notes:**
+**Important:**
 
-The `_recipient` **must** be added to the allow list in your `.env` file to be valid.
+Any fields starting with `_` will not be included in the email body.
+
+The `_recipient` must be added to the allow list in your `.env` file to be valid.
 
 The `_hp_email` field acts as a honeypot field to prevent spam submissions.
 
-Any other parameters you include will be shown in the generated email automatically.
+You can include any other parameters to be included in the generated email.
 
 # <a name="examples"></a> Example Forms
 You can see some example forms below ranging from super basic to much more advanced (coming soon).
@@ -59,7 +61,7 @@ You can see some example forms below ranging from super basic to much more advan
   <input type="email" name="_sender_email" placeholder="Your Email">
   <input type="text" name="_subject" placeholder="Your Subject">
   <textarea name="Message" placeholder="Your Message"></textarea>
-  <input type="file" name="file">
+  <input type="file" name="_file">
   <input type="submit" value="Send">
 </form>
 ```
